@@ -5,7 +5,7 @@
 
 			<label for="customerName">Nom du client</label>
 			<input type="text" id="customerName" name="customerName" required>
-			<br>
+			<br>	
 
 			<label for="product">Produit</label>
 

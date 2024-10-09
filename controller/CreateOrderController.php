@@ -29,6 +29,10 @@ class CreateOrderController{
 			require_once './view/order-error.php';
 		}
 	}
+
+	function persistOrder(Order $order) {
+		$_SESSION['order'] = $order;
+	}
 }
 
 

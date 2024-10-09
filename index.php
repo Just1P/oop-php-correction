@@ -25,3 +25,10 @@ if($endUri === "create-order") {
     $createOrderController->createOrder();
     return;
 } 
+
+if($endUri === "pay") {
+
+    $payController = new $payController();
+    $payController->pay();
+    return;
+} 
