@@ -12,7 +12,7 @@ if (isset($_SESSION['order'])) {
 
         $_SESSION['order'] = $order;
 
-        require_once '../view/payment-method-added.php';
+        require_once '../view/paid.php';
 
     } catch (Exception $e) {
         $errorMessage = $e->getMessage();
