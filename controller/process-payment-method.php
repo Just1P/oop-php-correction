@@ -8,10 +8,7 @@ if (isset($_SESSION['order'])) {
 
     try {
         $order = $_SESSION['order'];
-
-        $paymentMethod = $_POST['payment_method'];
-
-        $order->setPaymentMethod($paymentMethod);
+        $order->pay();
 
         $_SESSION['order'] = $order;
 
