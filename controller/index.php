@@ -1,4 +1,8 @@
 <?php
+class IndexController {
 
-require_once '../view/home.php';
+	public function index() {
+		require_once('./view/home.php');
+	}
 
+}
